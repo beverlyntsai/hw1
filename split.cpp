@@ -20,7 +20,7 @@ void split(Node*& in, Node*& odds, Node*& evens)
   /* Add code here */
 // WRITE YOUR CODE HERE
 
-  // Create base case where in is null
+  // Create base case and check to see if in is null
   if(in == NULL){
     // Set odds and evens linked list to null
     odds = NULL;
