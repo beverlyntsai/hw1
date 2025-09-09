@@ -127,9 +127,9 @@ class ULListStr {
    *  You MUST keep these members though you
    *  may add more if desired.
    */
-  Item* head_;
-  Item* tail_;
-  size_t size_;
+  Item* head_ = nullptr;
+  Item* tail_ = nullptr;
+  size_t size_ = 0;
 };
 
 #endif
